@@ -1,0 +1,31 @@
+.MentorsWrapper{
+  padding: 1rem;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.MentorList{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  height: 70%;
+  margin-top: 1rem;
+}
+.LoadBtn{
+  margin: 0px auto;
+}
+
+@media only screen and (max-width: 1030px){
+  .MentorList{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 70%;
+  margin-top: 1rem;
+}
+}
